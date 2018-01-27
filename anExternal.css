@@ -1,0 +1,28 @@
+body {
+	color: white;
+}
+h1 {
+	color: purple;
+	font: Helvetica;
+	margin-bottom: 0px;
+}
+pre {
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+marquee {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-bottom: 0px;
+}
+img {
+	height: 150px;
+	width: 150px;
+	float: left;
+	border-radius: 25px;
+    border: 1px solid purple;
+    padding: 0px; 
+    width: 200px;
+    height: 150px;
+}
