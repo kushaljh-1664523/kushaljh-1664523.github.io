@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+body {
+  background: linear-gradient(253deg, #0cc898, #1797d2);
+  background-size: 200% 200%;
+  -webkit-animation: Background 10s ease infinite;
+  -moz-animation: Background 10s ease infinite;
+  animation: Background 10s ease infinite;
+}
+  
+@keyframes Background {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+@-webkit-keyframes Background {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Background {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+  
+  h1, legend {
+    font-family:'Rammetto One', cursive; 
+    color: white;
+  }
+ 
+ section {
+  background-color: white; 
+  z-index: 9999;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+ }
